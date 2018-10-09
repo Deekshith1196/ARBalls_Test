@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC4A094216CA0EF00141050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4A093216CA0EF00141050 /* AppDelegate.swift */; };
+		ECC4A096216CA0EF00141050 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC4A095216CA0EF00141050 /* art.scnassets */; };
+		ECC4A098216CA0EF00141050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4A097216CA0EF00141050 /* ViewController.swift */; };
+		ECC4A09B216CA0EF00141050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4A099216CA0EF00141050 /* Main.storyboard */; };
+		ECC4A09D216CA0F300141050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC4A09C216CA0F300141050 /* Assets.xcassets */; };
+		ECC4A0A0216CA0F300141050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4A09E216CA0F300141050 /* LaunchScreen.storyboard */; };
+		ECC4A0AB216CA0F300141050 /* physicsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4A0AA216CA0F300141050 /* physicsTestTests.swift */; };
+		ECC4A0B6216CA0F300141050 /* physicsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4A0B5216CA0F300141050 /* physicsTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC4A0A7216CA0F300141050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC4A088216CA0EF00141050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC4A08F216CA0EF00141050;
+			remoteInfo = physicsTest;
+		};
+		ECC4A0B2216CA0F300141050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC4A088216CA0EF00141050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC4A08F216CA0EF00141050;
+			remoteInfo = physicsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC4A090216CA0EF00141050 /* physicsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = physicsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4A093216CA0EF00141050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC4A095216CA0EF00141050 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		ECC4A097216CA0EF00141050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC4A09A216CA0EF00141050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC4A09C216CA0F300141050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC4A09F216CA0F300141050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC4A0A1216CA0F300141050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC4A0A6216CA0F300141050 /* physicsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = physicsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4A0AA216CA0F300141050 /* physicsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = physicsTestTests.swift; sourceTree = "<group>"; };
+		ECC4A0AC216CA0F300141050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC4A0B1216CA0F300141050 /* physicsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = physicsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4A0B5216CA0F300141050 /* physicsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = physicsTestUITests.swift; sourceTree = "<group>"; };
+		ECC4A0B7216CA0F300141050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC4A08D216CA0EF00141050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4A0A3216CA0F300141050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4A0AE216CA0F300141050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC4A087216CA0EF00141050 = {
+			isa = PBXGroup;
+			children = (
+				ECC4A092216CA0EF00141050 /* physicsTest */,
+				ECC4A0A9216CA0F300141050 /* physicsTestTests */,
+				ECC4A0B4216CA0F300141050 /* physicsTestUITests */,
+				ECC4A091216CA0EF00141050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC4A091216CA0EF00141050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4A090216CA0EF00141050 /* physicsTest.app */,
+				ECC4A0A6216CA0F300141050 /* physicsTestTests.xctest */,
+				ECC4A0B1216CA0F300141050 /* physicsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC4A092216CA0EF00141050 /* physicsTest */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4A093216CA0EF00141050 /* AppDelegate.swift */,
+				ECC4A095216CA0EF00141050 /* art.scnassets */,
+				ECC4A097216CA0EF00141050 /* ViewController.swift */,
+				ECC4A099216CA0EF00141050 /* Main.storyboard */,
+				ECC4A09C216CA0F300141050 /* Assets.xcassets */,
+				ECC4A09E216CA0F300141050 /* LaunchScreen.storyboard */,
+				ECC4A0A1216CA0F300141050 /* Info.plist */,
+			);
+			path = physicsTest;
+			sourceTree = "<group>";
+		};
+		ECC4A0A9216CA0F300141050 /* physicsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4A0AA216CA0F300141050 /* physicsTestTests.swift */,
+				ECC4A0AC216CA0F300141050 /* Info.plist */,
+			);
+			path = physicsTestTests;
+			sourceTree = "<group>";
+		};
+		ECC4A0B4216CA0F300141050 /* physicsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4A0B5216CA0F300141050 /* physicsTestUITests.swift */,
+				ECC4A0B7216CA0F300141050 /* Info.plist */,
+			);
+			path = physicsTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC4A08F216CA0EF00141050 /* physicsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4A0BA216CA0F300141050 /* Build configuration list for PBXNativeTarget "physicsTest" */;
+			buildPhases = (
+				ECC4A08C216CA0EF00141050 /* Sources */,
+				ECC4A08D216CA0EF00141050 /* Frameworks */,
+				ECC4A08E216CA0EF00141050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = physicsTest;
+			productName = physicsTest;
+			productReference = ECC4A090216CA0EF00141050 /* physicsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC4A0A5216CA0F300141050 /* physicsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4A0BD216CA0F300141050 /* Build configuration list for PBXNativeTarget "physicsTestTests" */;
+			buildPhases = (
+				ECC4A0A2216CA0F300141050 /* Sources */,
+				ECC4A0A3216CA0F300141050 /* Frameworks */,
+				ECC4A0A4216CA0F300141050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC4A0A8216CA0F300141050 /* PBXTargetDependency */,
+			);
+			name = physicsTestTests;
+			productName = physicsTestTests;
+			productReference = ECC4A0A6216CA0F300141050 /* physicsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC4A0B0216CA0F300141050 /* physicsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4A0C0216CA0F300141050 /* Build configuration list for PBXNativeTarget "physicsTestUITests" */;
+			buildPhases = (
+				ECC4A0AD216CA0F300141050 /* Sources */,
+				ECC4A0AE216CA0F300141050 /* Frameworks */,
+				ECC4A0AF216CA0F300141050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC4A0B3216CA0F300141050 /* PBXTargetDependency */,
+			);
+			name = physicsTestUITests;
+			productName = physicsTestUITests;
+			productReference = ECC4A0B1216CA0F300141050 /* physicsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC4A088216CA0EF00141050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Deekshith Maram";
+				TargetAttributes = {
+					ECC4A08F216CA0EF00141050 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ECC4A0A5216CA0F300141050 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ECC4A08F216CA0EF00141050;
+					};
+					ECC4A0B0216CA0F300141050 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ECC4A08F216CA0EF00141050;
+					};
+				};
+			};
+			buildConfigurationList = ECC4A08B216CA0EF00141050 /* Build configuration list for PBXProject "physicsTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC4A087216CA0EF00141050;
+			productRefGroup = ECC4A091216CA0EF00141050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC4A08F216CA0EF00141050 /* physicsTest */,
+				ECC4A0A5216CA0F300141050 /* physicsTestTests */,
+				ECC4A0B0216CA0F300141050 /* physicsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC4A08E216CA0EF00141050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4A096216CA0EF00141050 /* art.scnassets in Resources */,
+				ECC4A0A0216CA0F300141050 /* LaunchScreen.storyboard in Resources */,
+				ECC4A09D216CA0F300141050 /* Assets.xcassets in Resources */,
+				ECC4A09B216CA0EF00141050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4A0A4216CA0F300141050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4A0AF216CA0F300141050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC4A08C216CA0EF00141050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4A098216CA0EF00141050 /* ViewController.swift in Sources */,
+				ECC4A094216CA0EF00141050 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4A0A2216CA0F300141050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4A0AB216CA0F300141050 /* physicsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4A0AD216CA0F300141050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4A0B6216CA0F300141050 /* physicsTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC4A0A8216CA0F300141050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC4A08F216CA0EF00141050 /* physicsTest */;
+			targetProxy = ECC4A0A7216CA0F300141050 /* PBXContainerItemProxy */;
+		};
+		ECC4A0B3216CA0F300141050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC4A08F216CA0EF00141050 /* physicsTest */;
+			targetProxy = ECC4A0B2216CA0F300141050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC4A099216CA0EF00141050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC4A09A216CA0EF00141050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC4A09E216CA0F300141050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC4A09F216CA0F300141050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC4A0B8216CA0F300141050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECC4A0B9216CA0F300141050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC4A0BB216CA0F300141050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXSYXZEXM9;
+				INFOPLIST_FILE = physicsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maguresoftwares.physicsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC4A0BC216CA0F300141050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXSYXZEXM9;
+				INFOPLIST_FILE = physicsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maguresoftwares.physicsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC4A0BE216CA0F300141050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXSYXZEXM9;
+				INFOPLIST_FILE = physicsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maguresoftwares.physicsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/physicsTest.app/physicsTest";
+			};
+			name = Debug;
+		};
+		ECC4A0BF216CA0F300141050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXSYXZEXM9;
+				INFOPLIST_FILE = physicsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maguresoftwares.physicsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/physicsTest.app/physicsTest";
+			};
+			name = Release;
+		};
+		ECC4A0C1216CA0F300141050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXSYXZEXM9;
+				INFOPLIST_FILE = physicsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maguresoftwares.physicsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = physicsTest;
+			};
+			name = Debug;
+		};
+		ECC4A0C2216CA0F300141050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXSYXZEXM9;
+				INFOPLIST_FILE = physicsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maguresoftwares.physicsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = physicsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC4A08B216CA0EF00141050 /* Build configuration list for PBXProject "physicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4A0B8216CA0F300141050 /* Debug */,
+				ECC4A0B9216CA0F300141050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4A0BA216CA0F300141050 /* Build configuration list for PBXNativeTarget "physicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4A0BB216CA0F300141050 /* Debug */,
+				ECC4A0BC216CA0F300141050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4A0BD216CA0F300141050 /* Build configuration list for PBXNativeTarget "physicsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4A0BE216CA0F300141050 /* Debug */,
+				ECC4A0BF216CA0F300141050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4A0C0216CA0F300141050 /* Build configuration list for PBXNativeTarget "physicsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4A0C1216CA0F300141050 /* Debug */,
+				ECC4A0C2216CA0F300141050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC4A088216CA0EF00141050 /* Project object */;
+}
